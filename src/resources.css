@@ -1,0 +1,36 @@
+
+.logo{
+
+    align-self: center;
+    margin-left: 50px;
+    margin-right: 500px;
+    display: block;
+  }
+  .top{
+    margin-left: 250px;
+    margin-top: -130px;
+    font-size: 35px;
+  }
+  .top1{
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+    font-size: 25px;
+  }
+  .top2{
+    margin-left: 250px;
+    
+  }
+  .top3{
+    margin-left: 700px;
+  }
+  .left{
+    display: block;
+    margin-left: 1700px;
+    font-size: 25px;
+    margin-top: -1600px;
+  }
+  .l1{
+    margin-left: 1700px;
+    margin-top: -1200px;
+  }

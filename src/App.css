@@ -1,3 +1,13 @@
+.backimage
+{
+  background-image: url("/public/6993068.gif");
+  background-size: cover;
+  background-color: 'rgba(0, 0, 0, 0.5)';
+  width: 100vw;
+  height: 100vh;
+  
+}
+
 .App {
   background-color: #1e2023;
   font-family: 'Open Sans', sans-serif;
@@ -16,6 +26,15 @@
   
   
 }
+/* .signupBtn
+{
+  float:right;
+  margin: 15px;
+
+} */
+
+
+
 .site-content__headline {
   color: white;
   font-size: calc(2vw + 35px);
