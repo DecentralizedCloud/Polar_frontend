@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import './App.css';
-
+import Video from './Videos/polar_video.mp4';
+import Typewriter from 'typewriter-effect';
+// import Cards from './Cards';
+// import {ParallaxProvider} from 'react-scroll-parallax';
 
 function App() {
 	useEffect(()=>{
@@ -20,7 +23,8 @@ const app = (() => {
   };
 
   const applyListeners = () => {
-    menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+      menu.addEventListener('click', () => {toggleClass(body, 'nav-active')}
+    );
   };
 
   const toggleClass = (element, stringClass) => {
@@ -47,16 +51,51 @@ const app = (() => {
 
 	<div className="nav__content">
 		<ul className="nav__list">
-			<li className="nav__list-item">Home</li>
+			<li className="nav__list-item">Features</li>
 			<li className="nav__list-item">Resources</li>
 			<li className="nav__list-item">About us</li>
 		</ul>
 	</div>
+ 
 </div>
 
-<div className="site-content">
-	<h1 className="site-content__headline">Polar S2</h1>
+<div className='videoclass' style={{
+  width:"100vw",
+  height:"100vh",
+  overflow:"hidden",
+  position:"fixed"
+  
+}}>
+<video autoPlay muted loop 
+style={{position:"absolute",
+width:"100%",
+overflow:"hidden",
+opacity:0.30
+
+}
+}>
+<source src={Video} type="video/mp4"/>
+</video>
 </div>
+<div className="site-content" height="110vh">
+
+	{/* <h1 className="site-content__headline" > */}
+  <Typewriter
+  options={{
+    strings: ['Secure :)', 'Private ;)','Free :)','Your Data, Our Service!'],
+    autoStart: true,
+    loop: true,
+    wrapperClassName: "site-content__headline",
+    
+  }}
+  />
+
+   
+    {/* </h1> */}
+ 
+</div>
+  
+  
 
     </div>
   );
