@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/polar_frontend/static/css/main.47bf2f90.css",
-    "main.js": "/polar_frontend/static/js/main.457b6c3a.js",
+    "main.js": "/polar_frontend/static/js/main.5394c53a.js",
     "static/js/787.cedd03ba.chunk.js": "/polar_frontend/static/js/787.cedd03ba.chunk.js",
     "static/media/6993068.gif": "/polar_frontend/static/media/6993068.f166be5821154aa083a0.gif",
     "static/media/polar_video.mp4": "/polar_frontend/static/media/polar_video.1428864985b557e429bd.mp4",
@@ -9,11 +9,11 @@
     "static/media/POLAR S2_free-file.png": "/polar_frontend/static/media/POLAR S2_free-file.d1f8cff0b748316b9cbe.png",
     "index.html": "/polar_frontend/index.html",
     "main.47bf2f90.css.map": "/polar_frontend/static/css/main.47bf2f90.css.map",
-    "main.457b6c3a.js.map": "/polar_frontend/static/js/main.457b6c3a.js.map",
+    "main.5394c53a.js.map": "/polar_frontend/static/js/main.5394c53a.js.map",
     "787.cedd03ba.chunk.js.map": "/polar_frontend/static/js/787.cedd03ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47bf2f90.css",
-    "static/js/main.457b6c3a.js"
+    "static/js/main.5394c53a.js"
   ]
 }
