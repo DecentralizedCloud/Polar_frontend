@@ -45,7 +45,7 @@ const app = (() => {
       
       <>
       <div style={{width:"100%",display:"flex",justifyContent:"end"}}>
-  <button className='signBtn' onClick={event=> window.location.href='http://localhost:3001'}>Sign up/Log In</button>
+  <button className='signBtn' onClick={event=> window.location.href='https://decentralizedcloud.github.io/polars2-console/'}>Sign up/Log In</button>
   
   </div>
 
